@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Receitas Tia Jurema - Cadastro</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="formatos.css">
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<!--Foi implementado no formatos.css-->
+<!--<body style="background: #e8957a;">-->
+<body>
+<header class="main_header">
+    <nav class="">
+        <ul class="nav">
+            <li class="nav-item ">
+                <a class="nav-link" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="receitas.html">Receitas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="cadastro.html">Cadastro</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main main_cadastro container-fluid ">
+    <h1>Efetue seu Cadastro</h1>
+
+    <form>
+        <div class="form-group row">
+                <label class="col-sm-2 col-form-label" for="nome">Nome</label>
+            <div class="col-sm-7">
+                <input class="form-control" id="nome" name="nome" type="text" required>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label label_email" for="email">E-mail</label>
+            <div class="col-sm-7">
+                <input class="form-control" id="email" name="email" type="email" required>
+            </div>
+        </div>
+
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label" for="cep">CEP</label>
+            <div class="col-sm-3">
+                <input class="form-control" id="cep" name="cep" type="text" required>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label" for="rua">Rua</label>
+            <div class="col-sm-7">
+                <input class="form-control" id="rua" name="rua" type="text" required>
+            </div>
+        </div>
+
+
+        <div class="form-group row">
+            <label class="col-lg-2 col-sm-2 col-form-label" for="numero">Nº</label>
+            <div class="col-lg-2 col-sm-7 mr-sm-5">
+                <input class="form-control" id="numero" name="numero" type="text" required>
+            </div>
+
+            <label class="col-lg-1 col-sm-3 col-form-label label_complemento" for="complemento">Complemento</label>
+            <div class="col-lg-3 col-sm-6">
+                <input class="form-control" id="complemento" name="complemento" type="text" required>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label label_cidade" for="cidade">Cidade</label>
+            <div class="col-sm-4">
+                <input class="form-control" id="cidade" name="cidade" type="text" required>
+            </div>
+
+            <label class="col-sm-1 col-form-label" for="uf">UF</label>
+            <div class="col-sm-2 mb-3">
+                <input class="form-control" id="uf" name="uf" type="text" required>
+            </div>
+            <div class="col-sm-3 d-flex align-items-center h1">
+                <button type="submit" class="btn btn-secondary btn_cadastro">Cadastrar</button>
+            </div>
+
+        </div>
+    </form>
+</main>
+
+<footer class="main_footer">
+    <h2>©Jurema 2022</h2>
+</footer>
+</body>
+</html>
