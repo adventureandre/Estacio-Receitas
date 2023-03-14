@@ -3,7 +3,7 @@
 Projeto de um site voltado para o fornecimento de receitas culinárias, com a
 utilização apenas de HTML e CSS.
 
-Veja aqui. **[clicando aqui](https://www.receitas.adventure.dev.br/)**.
+Veja aqui. **[clicando aqui](https://www.receitas.adventure.dev.br)**.
 
 ## Support
 
